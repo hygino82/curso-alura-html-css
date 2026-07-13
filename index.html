@@ -1,34 +1,47 @@
 <!doctype html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Blog</title>
-  </head>
-  <body>
-    <header>
-      <h1>Meu blog tech</h1>
-      <p>Vou compartilhar conhecimentos sobre tecnologia e programação</p>
-    </header>
 
-    <main>
-      <img src="full-stack.png" alt="Spring Boot - Angular" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Blog</title>
 
-      <div>
-        <h2>Meu primeiro post</h2>
-        <p class="artigo-autor">Por Adroaldo Ferreira</p>
-        <p>
-          Boas vindas ao meu novo blog! Aqui vou compartilhar dicas de
-          programação e curiosidades sobre tecnologia.
-        </p>
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores,
-          laboriosam incidunt. Rerum odit totam doloremque necessitatibus
-          similique voluptas commodi, nemo libero harum delectus quas, eaque
-          alias dolore, rem asperiores inventore.
-        </p>
+</head>
+
+<body>
+  <header>
+    <h1>Meu blog tech</h1>
+    <p>Vou compartilhar conhecimentos sobre tecnologia e programação</p>
+  </header>
+
+  <main>
+    <img src="full-stack.png" alt="Spring Boot - Angular" />
+
+    <div>
+      <h2>Meu primeiro post</h2>
+      <p class="artigo-autor">Por Adroaldo Ferreira</p>
+      <p>
+        Boas vindas ao meu novo blog! Aqui vou compartilhar dicas de
+        programação e curiosidades sobre tecnologia.
+      </p>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores,
+        laboriosam incidunt. Rerum odit totam doloremque necessitatibus
+        similique voluptas commodi, nemo libero harum delectus quas, eaque
+        alias dolore, rem asperiores inventore.
+      </p>
+
+      <button class="btn-like" onclick="botaoCurtir()">
+        <span style='font-size:100px;'>&#128077;</span>
+      </button>
+      <div id="resultado-curtidas">
+        <p>0 curtidas</p>
       </div>
-    </main>
-  </body>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+
 </html>
